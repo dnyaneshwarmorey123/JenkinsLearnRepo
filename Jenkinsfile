@@ -15,6 +15,6 @@ node{
     
      
      stage('Deploying artifacts'){
-     deploy adapters: [tomcat8(credentialsId: 'c1366040-9762-4579-80ad-cd6831759dc0', path: '', url: 'http://localhost:8081/RestService-0.0.1-SNAPSHOT/Users/1')], contextPath: 'restServices', war: '**/*.war'
+     deploy adapters: [tomcat8(credentialsId: '0ed4a495-65a9-48af-b297-857ba7ad0888', path: '', url: 'http://localhost:8081/manager/html')], contextPath: 'restServices', war: '**/*.war'
      }
 }
