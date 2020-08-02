@@ -6,8 +6,8 @@ node{
        
      
      
-     stage('Compile-Package'){
-     bat 'clean package'
+      stage('Compile-Package'){
+     bat 'mvn clean install -DskipTests=true'
      }
      
      
