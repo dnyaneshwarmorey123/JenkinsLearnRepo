@@ -11,9 +11,7 @@ node{
      }
      
      
-     stage('Junit test cases'){
-     bat "./mvnw test"
-     }
+   
     
      
      stage('Deploying artifacts'){
