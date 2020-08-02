@@ -1,6 +1,6 @@
 node{
      stage('SCM Checkout'){
-     git 'https://github.com/rahuku03/JenkinsLearnRepo'
+     git 'https://github.com/dnyaneshwarmorey123/JenkinsLearnRepo'
      }
    
        stage('Perl script'){
