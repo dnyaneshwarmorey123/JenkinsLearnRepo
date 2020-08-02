@@ -3,10 +3,7 @@ node{
      git 'https://github.com/dnyaneshwarmorey123/JenkinsLearnRepo'
      }
    
-       stage('Perl script'){
-     bat "perl script.pl"
-     }
-     
+       
      
      
      stage('Compile-Package'){
